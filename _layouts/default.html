@@ -30,18 +30,33 @@
   </style>
 </head>
 <body>
-  <ul class="menu">
-    <li><a href="#">Inicio</a></li>
-    <li><a href="#">Acerca de</a></li>
-    <li>
-      <a href="#">Productos</a>
-      <ul class="sub-menu">
-        <li><a href="#">Celulares</a></li>
-        <li><a href="#">Computadoras</a></li>
-        <li><a href="#">Accesorios</a></li>
-      </ul>
-    </li>
-    <li><a href="#">Contacto</a></li>
-  </ul>
+  <div>
+    <ul class="menu">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Acerca de</a></li>
+     <li>
+       <a href="#">Productos</a>
+       <ul class="sub-menu">
+          <li><a href="#">Celulares</a></li>
+         <li><a href="#">Computadoras</a></li>
+          <li><a href="#">Accesorios</a></li>
+        </ul>
+     </li>
+     <li><a href="#">Contacto</a></li>
+   </ul>
+  </div>
+  <div id="main" role="main" class="container">
+      {{ content }}
+  </div>
+
+   <div class="wrapper-footer">
+     <div class="container">
+       <footer class="footer">
+         {% include svg-icons.html %}
+       </footer>
+    </div>
+  </div>
+{% include analytics.html %}  
+
 </body>
 </html>
