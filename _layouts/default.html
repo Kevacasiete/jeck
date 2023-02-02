@@ -1,55 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-    <script src="{{ "/navigation.js" | absolute_url }}"></script>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("a").hover(function() {
+        $(this).next(".sub-menu").toggle();
+      });
+    });
+  </script>
+  <style>
+    .menu {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
 
-    {% include meta.html %}
+    .menu > li {
+      margin-right: 10px;
+    }
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
-
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-          
-          <nav>
-            <a href="{{ site.baseurl }}/">HOME</a>
-            <a href="{{ site.baseurl }}/jeck/PreChi">GERMAN HCI@CHI</a>
-            <a href="{{ site.baseurl }}/jeck/germanhci">COMMUNITY EVENTS</a>
-            <a href="{{ site.baseurl }}/jeck/Friends">FRIENDS</a>
-            <a href="{{ site.baseurl }}/jeck/About">ABOUT</a>
-          </nav>
-        </header>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
-  </body>
+    .sub-menu {
+      display: none;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Acerca de</a></li>
+    <li>
+      <a href="#">Productos</a>
+      <ul class="sub-menu">
+        <li><a href="#">Celulares</a></li>
+        <li><a href="#">Computadoras</a></li>
+        <li><a href="#">Accesorios</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Contacto</a></li>
+  </ul>
+</body>
 </html>
