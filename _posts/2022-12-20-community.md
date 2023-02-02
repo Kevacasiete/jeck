@@ -8,5 +8,5 @@ description: Unfortunately, due to the COVID-19 pandemic, this year’s CHI will
 
 There are a few events related to the main event of the German HCI Party @CHI.
 
-German Pre-CHI Event
-The 2020 Virtual German CHI Week
+- [German Pre-CHI Event](https://kevacasiete.github.io/jeck/prechi/)
+- [The 2020 Virtual German CHI Week](https://kevacasiete.github.io/jeck/virtualchi/)
