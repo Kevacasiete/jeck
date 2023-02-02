@@ -44,21 +44,17 @@ A list of all previous editions shows all our events since 2017.
 The German HCI community also organizes many different events, fostering the exchange about novel ideas and concepts and extending the outreach of Human-Computer Interaction.
 
 <d1>
-<table style="width:100%">
-  <tr>
-    <th style="color:blue;">2020 Virtual German CHI Week</th>
-    <th style="color:blue;">German Pre-CHI Event</th>
-   
-  </tr>
-  <tr>
-    <td style="text-align:justify;">As the 2020 edition of the CHI conference had to be cancelled on short notice, we decided to organize the 2020 Virtual German CHI Week. Running from May 25 to 29, the event featured over 100 short talks and live discussions of German CHI papers. Read more.</td>
-    <td style="text-align:justify;">Inspired by the Scottish tradition of meeting researchers from all over Scotland shortly before going to CHI, in 2019 this tradition was brought by Offis (Oldenburg) to Germany to bring the German HCI community and friends closer together. The idea of the German Pre-CHI Event is to provide an opportunity for researchers from Germany to present their accepted CHI papers and discuss them in a smaller circle. Read more.</td>
-   
-  </tr>
-  
-</table>
-
- </d1>
+  <table style="width:100%">
+    <tr>
+      <th style="color:blue;">2020 Virtual German CHI Week</th>
+      <th style="color:blue;">German Pre-CHI Event</th>
+    </tr>
+    <tr>
+      <td>As the 2020 edition of the CHI conference had to be cancelled on short notice, we decided to organize the 2020 Virtual German CHI Week. Running from May 25 to 29, the event featured over 100 short talks and live discussions of German CHI papers. Read more.</td>
+      <td>Inspired by the Scottish tradition of meeting researchers from all over Scotland shortly before going to CHI, in 2019 this tradition was brought by Offis (Oldenburg) to Germany to bring the German HCI community and friends closer together. The idea of the German Pre-CHI Event is to provide an opportunity for researchers from Germany to present their accepted CHI papers and discuss them in a smaller circle. Read more.</td>
+    </tr>
+  </table>
+</d1>
 
 
 
