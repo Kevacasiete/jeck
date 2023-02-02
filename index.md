@@ -22,21 +22,20 @@ If you have questions, comments, or want to join us, please do not hesitate to c
 
 The 2022 CHI will be a hybrid conference, for which we will continue our tradition of the German HCI. Similar to the previous editions, we will curate this years publications from the German labs. Additionally, we provide a schedule for all talks! Feel free to catch up in our Gather.town space.
 <d1>
-<table style="width:100%">
-  <tr>
-    <th>2021 – Yokohama</th>
-    <th>2020 – Honolulu</th>
-    <th>2019 – Glasgow</th>
-  </tr>
-  <tr>
+  <table style="width:100%">
+    <tr>
+     <th>2021 – Yokohama</th>
+     <th>2020 – Honolulu</th>
+     <th>2019 – Glasgow</th>
+   </tr>
+   <tr>
     <td><img src="https://raw.githubusercontent.com/Kevacasiete/kevacasiete.github.io/master/images/german1.jpg" ></td>
     <td><img src="https://raw.githubusercontent.com/Kevacasiete/kevacasiete.github.io/master/images/german2.jpg" ></td>
     <td><img src="https://raw.githubusercontent.com/Kevacasiete/kevacasiete.github.io/master/images/german3.jpg" ></td>
-  </tr>
+   </tr>
   
-</table>
-
- </d1>
+  </table>
+</d1>
 
 A list of all previous editions shows all our events since 2017.
 
