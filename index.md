@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# The German HCI
+<h2 align="center">The German HCI</h2> 
 
 ## Spotlight
 ![alt text](https://raw.githubusercontent.com/Kevacasiete/kevacasiete.github.io/master/images/pre-chi23_banner.jpg "Logo Title Text 1")
