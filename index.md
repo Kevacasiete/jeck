@@ -49,9 +49,11 @@ The German HCI community also organizes many different events, fostering the exc
       <th style="color:blue;">German Pre-CHI Event</th>
     </tr>
     <tr>
-      <td style="text-align: justify;">As the 2020 edition of the CHI conference had to be cancelled on short notice, we decided to organize the 2020 Virtual German CHI Week. Running from May 25 to 29, the event featured over 100 short talks and live discussions of German CHI papers. Read more.</td>
-      <td style="text-align: justify;">Inspired by the Scottish tradition of meeting researchers from all over Scotland shortly before going to CHI, in 2019 this tradition was brought by Offis (Oldenburg) to Germany to bring the German HCI community and friends closer together. The idea of the German Pre-CHI Event is to provide an opportunity for researchers from Germany to present their accepted CHI papers and discuss them in a smaller circle. Read more.</td>
+      <td style="vertical-align: top; text-align: justify;">As the 2020 edition of the CHI conference had to be cancelled on short notice, we decided to organize the 2020 Virtual German CHI Week. Running from May 25 to 29, the event featured over 100 short talks and live discussions of German CHI papers. Read more.</td>
+      <td style="vertical-align: top;">
+        <img src="https://raw.githubusercontent.com/Kevacasiete/jeck/main/images/gerhci.PNG" alt="Descripción de la imagen">
+        <p style="text-align: justify;">Inspired by the Scottish tradition of meeting researchers from all over Scotland shortly before going to CHI, in 2019 this tradition was brought by Offis (Oldenburg) to Germany to bring the German HCI community and friends closer together. The idea of the German Pre-CHI Event is to provide an opportunity for researchers from Germany to present their accepted CHI papers and discuss them in a smaller circle. Read more.</p>
+      </td>
     </tr>
   </table>
 </d1>
-
