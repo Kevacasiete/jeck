@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h2 align="center">The German HCI</h2> 
+<h1 align="center">The German HCI</h1> 
 
 ## Spotlight
 ![alt text](https://raw.githubusercontent.com/Kevacasiete/kevacasiete.github.io/master/images/pre-chi23_banner.jpg "Logo Title Text 1")
@@ -55,5 +55,43 @@ The German HCI community also organizes many different events, fostering the exc
   </table>
 </d1>
 
-Hi
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tabla de ejemplo</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      th {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+      }
+      td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tabla de ejemplo</h1>
+    <table>
+      <tr>
+        <th>Título 1</th>
+        <th>Título 2</th>
+      </tr>
+      <tr>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum, dolor a condimentum pharetra, lorem nisl pharetra tortor, eu congue nunc arcu a metus.</td>
+        <td>Nullam accumsan, arcu ut scelerisque tincidunt, felis tellus sodales dolor, vel tincidunt nunc tellus vel enim.</td>
+      </tr>
+      <tr>
+        <td>Donec eu sapien euismod, dapibus velit sit amet, suscipit risus. Sed nec magna ut velit auctor lobortis.</td>
+        <td>Quisque ornare lobortis nisl, ut vestibulum urna suscipit ut. Ut fermentum semper mi, vel sollicitudin purus posuere non.</td>
+      </tr>
+    </table>
+  </body>
+</html>
 
