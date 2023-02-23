@@ -56,42 +56,20 @@ The German HCI community also organizes many different events, fostering the exc
 </d1>
 
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Tabla de ejemplo</title>
-    <style>
-      table {
-        border-collapse: collapse;
-      }
-      th {
-        background-color: blue;
-        color: white;
-        padding: 10px;
-      }
-      td {
-        border: 1px solid black;
-        padding: 10px;
-        text-align: justify;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Tabla de ejemplo</h1>
-    <table>
-      <tr>
-        <th>Título 1</th>
-        <th>Título 2</th>
-      </tr>
-      <tr>
-        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum, dolor a condimentum pharetra, lorem nisl pharetra tortor, eu congue nunc arcu a metus.</td>
-        <td>Nullam accumsan, arcu ut scelerisque tincidunt, felis tellus sodales dolor, vel tincidunt nunc tellus vel enim.</td>
-      </tr>
-      <tr>
-        <td>Donec eu sapien euismod, dapibus velit sit amet, suscipit risus. Sed nec magna ut velit auctor lobortis.</td>
-        <td>Quisque ornare lobortis nisl, ut vestibulum urna suscipit ut. Ut fermentum semper mi, vel sollicitudin purus posuere non.</td>
-      </tr>
-    </table>
-  </body>
-</html>
+require 'colorize'
 
+# Definir los títulos de la tabla
+titulos = ["Nombre", "Apellido", "Edad", "País"]
+
+# Definir los datos de la tabla
+datos = [
+  ["Juan", "Pérez", 25, "México"],
+  ["Ana", "García", 30, "España"],
+  ["Pedro", "Ramírez", 20, "Colombia"]
+]
+
+# Imprimir la tabla con los títulos en azul
+puts titulos.map { |t| t.colorize(:blue) }.join("\t")
+datos.each do |fila|
+  puts fila.join("\t")
+end
