@@ -12,7 +12,7 @@ This year’s German Pre-CHI event will take place in Dresden on March 30-31, 20
 <div align="justify">The German research community in the area of Human-Computer Interaction (HCI) is highly lively and manifold. The German HCI provides a platform for the fascinating research, the aspirating labs, and the exciting events of this community. Our roots lie in the organization of the German HCI events at the ACM CHI conference, where we invite attendees to join us for discussing and exchanging the latest of HCI research in relaxed atmosphere. In addition, we also started to support further community events within the German HCI community. </div>
 
 If you have questions, comments, or want to join us, please do not hesitate to contact us.
-
+hoolii
 ## German HCI @ CHI
 <div align="justify">Under the German HCI flag, over 30 research labs teamed up to promote together their institutions and research at the annual ACM CHI Conference on Human Factors in Computing Systems, the premier venue in the field of Human-Computer Interaction. Since 2017, we have been organizing a networking event together during CHI —also known as the German HCI event— in order to boost the visibility of our community. Over the years, this event grown to become the largest of its kind at CHI, with almost 1.000 guests. </div>
 
